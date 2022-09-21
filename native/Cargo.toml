@@ -1,0 +1,15 @@
+[package]
+name = "lynx_deno"
+version = "0.1.0"
+authors = ["linc2046@gmail.com"]
+edition = "2021"
+
+[lib]
+name = "lynx_deno"
+crate-type = ["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+deno_core = "0.151.0"
+lynxlang = "0.1.1"
